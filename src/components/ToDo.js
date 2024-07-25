@@ -5,6 +5,8 @@ import ToDoList from "./ToDoList";
 let nextId = 1;
 const initialTodos = [{ id: 0, title: "ToDo Test", done: true }];
 
+//because of the error I've got the functions are exported at the top like this, not in the bottom!
+
 export default function ToDo() {
     const [todos, setTodos] = useState(initialTodos);
 
@@ -53,3 +55,5 @@ export default function ToDo() {
         </>
     );
 };
+
+// I will add in time more changes to this ToDo app :)

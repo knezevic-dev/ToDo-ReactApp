@@ -12,6 +12,7 @@ export default function AddToDo({ onAddToDo }) {
             /> 
             {title.length === 0 && <small>Type ToDo if you want to add</small>}
             <button 
+                className="button-add"
                 onClick={() => {
                     setTitle("");
                     onAddToDo(title);

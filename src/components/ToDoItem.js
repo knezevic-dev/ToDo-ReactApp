@@ -18,6 +18,7 @@ export default function ToDoItem({ todo, onChange, onDelete}) {
             }}
             />
             <button 
+                className="button-save"
                 onClick={() => setIsEditing(false)}
                 disabled={todo.title.length === 0}
                 >
@@ -29,7 +30,9 @@ export default function ToDoItem({ todo, onChange, onDelete}) {
         todoContent = (
             <>
             {todo.title}
-            <button onClick={() => setIsEditing(true)}>📝Edit</button>
+            <button 
+            className="button-edit"
+            onClick={() => setIsEditing(true)}>📝Edit</button>
             </>
         );
     }

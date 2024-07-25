@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.button-add {
+    color:hsl(0, 0%, 0%);
+    background-color: hsl(201, 78%, 47%);
+}
+.button-save {
+    color: hsl(180, 100%, 97%);
+    background-color: hsla(0, 2%, 8%, 0.566);
+}
+.button-edit {
+    color: hsl(271, 73%, 55%);
+    background-color: hsl(160, 100%, 75%);
+}
